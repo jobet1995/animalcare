@@ -1,0 +1,130 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-2",
+      "description": "A happy dog with its owner.",
+      "imageUrl": "https://images.unsplash.com/photo-1543466835-00a7907e9de1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxkb2d8ZW58MHx8fHwxNzU5Mjc2Mjg2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "happy dog"
+    },
+    {
+      "id": "animal-1",
+      "description": "Friendly Golden Retriever.",
+      "imageUrl": "https://images.unsplash.com/photo-1523480717984-24cba35ae1ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxnb2xkZW4lMjByZXRyaWV2ZXJ8ZW58MHx8fHwxNzU5MjUzNzY1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "golden retriever"
+    },
+    {
+      "id": "animal-2",
+      "description": "Siamese cat with blue eyes.",
+      "imageUrl": "https://images.unsplash.com/photo-1629455599122-6bb940009225?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzaWFtZXNlJTIwY2F0fGVufDB8fHx8MTc1OTI1MTI1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "siamese cat"
+    },
+    {
+      "id": "animal-3",
+      "description": "Loyal German Shepherd.",
+      "imageUrl": "https://images.unsplash.com/photo-1621951714307-0f9b8070a9b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxnZXJtYW4lMjBzaGVwaGVyZHxlbnwwfHx8fDE3NTkxODg2NTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "german shepherd"
+    },
+    {
+      "id": "animal-4",
+      "description": "Calm Domestic Shorthair cat.",
+      "imageUrl": "https://images.unsplash.com/photo-1552954877-e96a0f0728c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx0YWJieSUyMGNhdHxlbnwwfHx8fDE3NTkyMzYwNTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tabby cat"
+    },
+    {
+      "id": "animal-5",
+      "description": "Curious Beagle dog.",
+      "imageUrl": "https://images.unsplash.com/photo-1711297609855-d0ed2e926a18?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxiZWFnbGUlMjBkb2d8ZW58MHx8fHwxNzU5MjUzNzY0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "beagle dog"
+    },
+    {
+      "id": "animal-6",
+      "description": "Fluffy Maine Coon cat.",
+      "imageUrl": "https://images.unsplash.com/photo-1698887044467-95dd34fa568e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtYWluZSUyMGNvb258ZW58MHx8fHwxNzU5MjUzNzY1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "maine coon"
+    },
+    {
+      "id": "animal-gallery-1",
+      "description": "Golden Retriever playing with a ball.",
+      "imageUrl": "https://images.unsplash.com/photo-1597046835715-16f81ac132c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxkb2clMjBwbGF5aW5nfGVufDB8fHx8MTc1OTE5MTExNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dog playing"
+    },
+    {
+      "id": "animal-gallery-2",
+      "description": "Golden Retriever sleeping.",
+      "imageUrl": "https://images.unsplash.com/photo-1610461643300-a876423a9cd3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxkb2clMjBzbGVlcGluZ3xlbnwwfHx8fDE3NTkyNzYyODZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dog sleeping"
+    },
+    {
+      "id": "animal-gallery-3",
+      "description": "Siamese cat stretching.",
+      "imageUrl": "https://images.unsplash.com/photo-1693355365884-eee6dbf15244?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2F0JTIwc3RyZXRjaGluZ3xlbnwwfHx8fDE3NTkyNzYyODZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cat stretching"
+    },
+    {
+      "id": "animal-gallery-4",
+      "description": "Siamese cat looking out a window.",
+      "imageUrl": "https://images.unsplash.com/photo-1492674253171-7561dea14008?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjYXQlMjB3aW5kb3d8ZW58MHx8fHwxNzU5MTY4NTU0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cat window"
+    },
+    {
+      "id": "event-1",
+      "description": "People at an outdoor adoption fair.",
+      "imageUrl": "https://images.unsplash.com/photo-1638132704904-58d5ebe85aa5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxvdXRkb29yJTIwZXZlbnR8ZW58MHx8fHwxNzU5MjI0NDY3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "outdoor event"
+    },
+    {
+      "id": "event-2",
+      "description": "Elegant gala event.",
+      "imageUrl": "https://images.unsplash.com/photo-1662047303270-cf57b005df2b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxnYWxhJTIwZXZlbnR8ZW58MHx8fHwxNzU5MjI3ODA1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "gala event"
+    },
+    {
+      "id": "event-3",
+      "description": "Volunteers cleaning at a shelter.",
+      "imageUrl": "https://images.unsplash.com/flagged/photo-1574380555089-06f915e8c074?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx2b2x1bnRlZXJzJTIwd29ya2luZ3xlbnwwfHx8fDE3NTkyNzYyODZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "volunteers working"
+    },
+    {
+      "id": "blog-1",
+      "description": "A person holding a leash with a dog.",
+      "imageUrl": "https://images.unsplash.com/photo-1580129518863-f00fcf1d6e68?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxkb2clMjBsZWFzaHxlbnwwfHx8fDE3NTkyNzMzMjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dog leash"
+    },
+    {
+      "id": "blog-2",
+      "description": "An older, grey-muzzled dog smiling.",
+      "imageUrl": "https://images.unsplash.com/photo-1651777229439-beef9fda852f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzZW5pb3IlMjBkb2d8ZW58MHx8fHwxNzU5MjIzNzEzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "senior dog"
+    },
+    {
+      "id": "blog-3",
+      "description": "A group of happy volunteers.",
+      "imageUrl": "https://images.unsplash.com/photo-1542596594-649edbc13630?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxoYXBweSUyMHBlb3BsZXxlbnwwfHx8fDE3NTkyNzYyODZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "happy people"
+    },
+    {
+      "id": "testimonial-1",
+      "description": "A family posing with their dog.",
+      "imageUrl": "https://images.unsplash.com/photo-1588352873216-61d174714a6b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxmYW1pbHklMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTkxODYyMjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "family portrait"
+    },
+    {
+      "id": "testimonial-2",
+      "description": "A man smiling with his cat.",
+      "imageUrl": "https://images.unsplash.com/photo-1717249781729-aeea058bfb46?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYW4lMjBjYXR8ZW58MHx8fHwxNzU5Mjc2Mjg2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man cat"
+    },
+    {
+      "id": "testimonial-3",
+      "description": "A woman volunteering at an animal shelter.",
+      "imageUrl": "https://images.unsplash.com/photo-1758599669016-acedd3942ca2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx3b21hbiUyMHZvbHVudGVlcmluZ3xlbnwwfHx8fDE3NTkyNzYyODZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman volunteering"
+    },
+    {
+      "id": "contact-map",
+      "description": "A map showing a location.",
+      "imageUrl": "https://images.unsplash.com/photo-1730317195705-8a265a59ed1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjaXR5JTIwbWFwfGVufDB8fHx8MTc1OTE3MTkxN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "city map"
+    }
+  ]
+}
