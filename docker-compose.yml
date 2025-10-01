@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "9002:9002"
+    environment:
+      - NODE_ENV=production
+    # You can add your environment variables here
+    env_file:
+      - .env

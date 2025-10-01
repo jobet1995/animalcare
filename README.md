@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AnimalKind - Animal Shelter Web Application
+
+This is a web application for "AnimalKind", a fictional non-profit animal shelter. The application allows users to browse adoptable animals, apply for adoption, learn about the shelter, and more. It features an admin dashboard for staff to manage shelter operations and leverages generative AI for a pet matching service and a helpful chatbot.
+
+## Tech Stack
+
+This project is built with a modern, component-based architecture:
+
+- **Framework**: [Next.js](https://nextjs.org/) (App Router)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **UI**: [React](https://react.dev/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Component Library**: [ShadCN UI](https://ui.shadcn.com/)
+- **Generative AI**: [Genkit](https://firebase.google.com/docs/genkit) with [Google Gemini](https://deepmind.google.com/technologies/gemini/)
+- **Forms**: [React Hook Form](https://react-hook-form.com/) & [Zod](https://zod.dev/)
+- **Containerization**: [Docker](https://www.docker.com/)
+
+## Features
+
+- **Animal Listings**: Browse available cats, dogs, and other animals with detailed profiles.
+- **Adoption Application**: A multi-step form for users to apply for adoption.
+- **AI Pet Matcher**: An AI-powered tool that recommends pets based on a user's lifestyle and preferences.
+- **AI Chatbot**: A friendly assistant to answer user questions about animals, adoption, and the shelter.
+- **Admin Dashboard**: A secure area for staff to manage animals, view applications, and monitor shelter statistics.
+- **Dynamic Content**: Pages for events, blog posts, and general information.
+- **Donation Page**: A dedicated section for supporting the shelter.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- [Node.js](https://nodejs.org/en) (v20 or later)
+- [npm](https://www.npmjs.com/) or a compatible package manager
+
+### 1. Set Up Environment Variables
+
+Before running the application, you need to set up your environment variables. Copy the `.env.example` file (if present) or create a new file named `.env` in the root of the project.
+
+You will need a Google Gemini API key for the AI features to work.
+
+```
+GEMINI_API_KEY=YOUR_API_KEY_HERE
+```
+
+### 2. Install Dependencies
+
+Install the project dependencies using npm:
+
+```bash
+npm install
+```
+
+### 3. Run the Development Server
+
+Start the Next.js development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The application will be available at [http://localhost:9002](http://localhost:9002).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Docker
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project includes a `Dockerfile` and `docker-compose.yml` for easy containerization.
 
-## Learn More
+### Prerequisites
 
-To learn more about Next.js, take a look at the following resources:
+- [Docker](https://www.docker.com/products/docker-desktop/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Build and Run
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+To build and run the application using Docker Compose, run the following command from the project root:
 
-## Deploy on Vercel
+```bash
+docker-compose up --build
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The application will be available at [http://localhost:9002](http://localhost:9002). The `docker-compose.yml` is configured to use the `.env` file for environment variables.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Available Scripts
+
+- `npm run dev`: Starts the development server with Turbopack.
+- `npm run build`: Creates a production build of the application.
+- `npm run start`: Starts the production server.
+- `npm run lint`: Lints the codebase using Next.js's built-in ESLint configuration.
+- `npm run typecheck`: Runs the TypeScript compiler to check for type errors.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
